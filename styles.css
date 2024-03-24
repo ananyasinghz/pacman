@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgba(14, 3, 65, 0.893);
+    color: white;
+    font-family: 'Slabo 27px', serif;
+}
+
+#game-container {
+    position: relative;
+    height: 600px;
+    width: 800px;
+}
+
+.score, .high-score {
+    position: absolute;
+    top: 10px;
+    font-size: 2em; /* Adjust this value to increase or decrease the size of the text */
+}
+
+.score {
+    left: 10px;
+}
+
+.high-score {
+    right: 10px;
+}
+

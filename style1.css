@@ -1,0 +1,45 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0, 213, 255, 0.411) 100%);
+  color: white;
+  font-family:  'Slabo 27px', serif;
+}
+
+#landing-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; /* This will distribute the space evenly between the items */
+  align-items: center;
+  height: 70%; /* Decrease this value to bring the items closer together */
+  width: 100%;
+}
+.logo {
+  width: 700px;
+  height: 200px;
+  margin-top: 20px;
+}
+#play-button {
+  font-size: 8em;
+  padding: 20px;
+  cursor: pointer;
+  background-color: rgb(239, 199, 54); /* Bright yellow background */
+  border: none; /* Remove default button border */
+  color: rgb(1, 1, 1); /* White text color */
+  text-align: center; /* Center the text */
+  text-decoration: none; /* Remove underline */
+  display: inline-block;
+  font-size: 25px;
+  transition-duration: 0.4s; /* Transition effect duration */
+  border-radius: 12px; /* Rounded corners */
+}
+
+#play-button:hover {
+  background-color: rgba(222, 24, 24, 0.822); /* White background */
+  color: #ffdd00; /* Yellow text */
+}
